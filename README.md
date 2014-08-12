@@ -7,6 +7,7 @@ m3u8-generator-script
   
   This script generates I-Frame based m3u8 playlists for HLS streaming
   The inputfile should be a valid single file h.264/aac transportstream 
+  
   Usage :  m3u8generator.sh <inputfile>.ts
   
 
