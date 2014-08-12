@@ -5,7 +5,7 @@ m3u8-generator-script
 
   (c) 2014 Marcel Poelstra / The Video Express
   
-  Originally develloped for our hosting platform
+  Originally develloped for our hosting platform.
   Since we no longer need it, we moved it to the public domain for anyone who might have any use for it.
   Please note that generating m3u8 files this way, is a rather cpu intensive job.
   
