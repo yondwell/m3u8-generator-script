@@ -15,6 +15,10 @@ m3u8-generator-script
   
   Usage :  m3u8generator.sh <inputfile>.ts
   
+  A built in logging function logs to the messages log, for debugging reasons.  For production this could be removed.
+
+
+
 
   Prerequisites : 
   
