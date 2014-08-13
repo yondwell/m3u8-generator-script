@@ -10,14 +10,14 @@ m3u8-generator-script
   Please note that generating m3u8 files this way, is a rather cpu intensive job.
   
   
-  This script generates I-frame based m3u8 playlists for HLS streaming
+  This script generates I-frame / byterange based m3u8 playlists for HLS streaming
   The inputfile should be a valid single file h.264/aac transportstream (.ts)
   
   Usage :  m3u8generator.sh <inputfile>.ts
   
+  Note :
   A built in logging function logs to the messages log, for debugging reasons.  For production this could be removed.
-
-
+  For this solution to work, you need a webserver that support byte-range requests on the .ts file.
 
 
   Prerequisites : 
