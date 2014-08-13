@@ -15,8 +15,9 @@ m3u8-generator-script
   
   Usage :  m3u8generator.sh <inputfile>.ts
   
-  Note :
+  Note 1 :
   A built in logging function logs to the messages log, for debugging reasons.  For production this could be removed.
+  Note 2:
   For this solution to work, you need a webserver that support byte-range requests on the .ts file.
 
 
